@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "misty.cx",
+        "misakaf.org",
+        "emby-mica-us-v1.mius.uk",
+        "entry.zox.show",
+        "ip.zox.show",
+        "cf.zox.show",
+        "direct.zox.show",
+        "public.shrekmedia.org",
+        "v1.uhdnow.com",
+        "global.uhdnow.com"
+      ],
+      "domain_keyword": [
+        "emby"
+      ]
+    }
+  ]
+}
