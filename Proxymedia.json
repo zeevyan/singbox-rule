@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cbsi.live.ott.irdeto.com",
+        "cbsplaylistserver.aws.syncbak.com",
+        "cbsservice.aws.syncbak.com",
+        "link.theplatform.com",
+        "discovery-us.conax.cloud",
+        "dplus-northamerica.media-edge.prod-vod.h264.io",
+        "api-abematv.bucketeer.jp",
+        "gspe1-ssl.ls.apple.com",
+        "np-edge.itunes.apple.com",
+        "play-edge.itunes.apple.com",
+        "aod-dash-uk-live.akamaized.net",
+        "aod-hls-uk-live.akamaized.net",
+        "vod-dash-uk-live.akamaized.net",
+        "vod-thumb-uk-live.akamaized.net",
+        "bahamut.akamaized.net",
+        "gamer-cds.cdn.hinet.net",
+        "gamer2-cds.cdn.hinet.net",
+        "kktv-theater.kk.stream",
+        "theater-kktv.cdn.hinet.net",
+        "litvfreemobile-hichannel.cdn.hinet.net",
+        "d3c7rimkq79yfu.cloudfront.net",
+        "d349g9zuie06uo.cloudfront.net",
+        "mytvsuperlimited.hb.omtrdc.net",
+        "mytvsuperlimited.sc.omtrdc.net",
+        "hamifans.emome.net",
+        "d1k2us671qcoau.cloudfront.net",
+        "d2anahhhmp1ffz.cloudfront.net",
+        "dfp6rglgjqszk.cloudfront.net",
+        "youtubei.googleapis.com",
+        "yt3.ggpht.com",
+        "music.youtube.com"
+      ],
+      "domain_suffix": [
+        "hytto.com", "lovense-api.com", "lovense.com", "haigui.tv", "3img.hitv.com", "c1.rrcdnbf6.com", "cdn.iz8qkg.com", "cdnb.iz8qkg.com", "cdnb.v82u1l.com", "cdnnc.com", "hyqtv.cc", "hyqtv.com", "kin6c1.com", "cbsaavideo.com", "cbsi.com", "cbsivideo.com", "paramountplus.com", "pplusstatic.com", "disco-api.com", "discovery.com", "discoveryplus.co.uk", "discoveryplus.com", "discoveryplus.in", "dnitv.com", "fwmrm.net", "getblueshift.com", "litix.io", "mobile-collector.newrelic.com", "uplynk.com", "assets.tpdfiles.com", "theporndude.com", "nsimg.net", "laowang.vip", "battleship.sc-apps.com", "cdn13.com", "doppiocdn.com", "doppiocdn.net", "doppiocdn.org", "flixcdn.com", "fullxhcdn.com", "hotpics.mom", "hotvids.space", "makemehappy.mom", "megaxh.com", "thumb-v-lv.xhpingcdn.com", "vidsmoon.space", "watchnewvids.space", "xh.video", "xhaccess.com", "xham.live", "xhamster.com", "xhamsterlive.com", "xhcdn.com", "xlivesex.com", "cdn.stripcash.com", "img.stripst.com", "stripchat.com", "strpst.com", "t.anexo.link", "javdb.com", "sifangclub.com", "sis001.com", "sis001.us", "tiaokan.blog", "tiaokan.love", "tiaokan.vip", "tiaokan01.com", "tiaokan02.com", "tiaokan03.com", "tiaokan04.com", "ggjav.com", "avhd101.com", "airav.io", "njav.tv", "missav.ws", "edgedatg.com", "go.com", "abema-tv.com", "abema.io", "abema.tv", "ameba.jp", "hayabusa.io", "hayabusa.media", "c4assets.com", "channel4.com", "aboutamazon.com", "aiv-cdn.net", "aiv-delivery.net", "amazon.jobs", "amazontools.com", "amazonuniversity.jobs", "amazonvideo.com", "media-amazon.com", "pv-cdn.net", "seattlespheres.com", "tv.apple.com", "bbc.co", "bbc.co.uk", "bbc.com", "bbc.net.uk", "bbcfmt.hs.llnwd.net", "bbci.co", "bbci.co.uk", "bidi.net.uk", "bahamut.com.tw", "gamer.com.tw", "dazn-api.com", "dazn.com", "dazndn.com", "dcblivedazn.akamaized.net", "indazn.com", "indaznlab.com", "deezer.com", "dzcdn.net", "bamgrid.com", "disney-plus.net", "disneyplus.com", "disneystreaming.com", "dssott.com", "encoretvb.com", "fox.com", "foxdcg.com", "5itv.tv", "ocnttv.com", "hulu.com", "huluad.com", "huluim.com", "hulustream.com", "happyon.jp", "hjholdings.jp", "hulu.jp", "itv.com", "itvstatic.com", "joox.com", "japonx.com", "japonx.net", "kfs.io", "kkbox.com", "kktv.me", "litv.tv", "linetv.tw", "channel5.com", "my5.tv", "mytvsuper.com", "tvb.com", "dmc.nico", "nicovideo.jp", "nimg.jp", "mudvod.tv", "nivod.tv", "olevod.com", "pbs.org", "pandora.com", "phncdn.com", "pornhub.com", "qobuz.com", "soundcloud.com", "pscdn.co", "scdn.co", "spotifycdn.com", "tidal.com", "skyking.com.tw", "tiktok.com", "tiktokcdn.com", "twitch.tv", "viu.tv", "googlevideo.com", "youtube.com", "ytimg.com", "xnxx.com", "xvideos.com", "flzbcdn.xyz"
+      ],
+      "domain_keyword": [
+        "abematv", "avoddashs", "bbcfmt", "uk-live", "voddazn", "jooxweb-api", "japonx", "nivod", "olevod", "spotify", "tiktokcdn", "ttvnw", "youtube", "porn"
+      ],
+      "ip_cidr": [
+        "104.19.128.100/32", "103.53.48.0/23", "185.42.204.0/22", "192.108.239.0/24", "192.16.64.0/21", "199.9.248.0/21", "23.160.0.0/24", "45.113.128.0/22", "52.223.192.0/20", "52.223.208.0/21", "52.223.224.0/19", "99.181.64.0/18"
+      ],
+      "user_agent": [
+        "PPlus", "DPlus", "discovery+", "AbemaTV", "All4", "AppleNews", "BBCiPlayer", "Anime", "DAZN", "Deezer", "Disney", "Disney+", "encoreTVB", "FOX%20NOW", "HWTVMobile", "ITV_Player", "JOOX", "WeMusic", "KKTV", "LINE", "My5", "mytv", "Niconico", "PBS", "Pandora", "SoundCloud", "Spotify", "TIDAL", "TaiwanGood", "TikTok", "Viu", "YouTube"
+      ]
+    }
+  ]
+}
