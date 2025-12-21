@@ -1,0 +1,46 @@
+name: Compile Sing-box Rules
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.json' # 只有 JSON 文件变动时才触发
+  workflow_dispatch: # 允许手动点击运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Sing-box
+        run: |
+          set -e
+          ARCH=$(dpkg --print-architecture)
+          # 获取最新版本并下载
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | jq -r .tag_name | sed 's/v//')
+          URL="https://github.com/SagerNet/sing-box/releases/download/v${LATEST_VERSION}/sing-box-${LATEST_VERSION}-linux-${ARCH}.tar.gz"
+          curl -Lo sing-box.tar.gz "$URL"
+          tar -xzf sing-box.tar.gz
+          mv sing-box-*/sing-box .
+          chmod +x sing-box
+
+      - name: Compile Rules
+        run: |
+          # 自动寻找仓库里的所有 JSON 文件并编译
+          for file in *.json; do
+            if [ -f "$file" ]; then
+              filename="${file%.*}"
+              echo "Compiling $file to ${filename}.srs..."
+              ./sing-box rule-set compile "$file" -o "${filename}.srs"
+            fi
+          done
+
+      - name: Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.srs
+          git commit -m "Auto-compile rules to SRS" || echo "No changes to commit"
+          git push
